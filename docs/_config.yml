@@ -10,3 +10,4 @@ gems:
 title: CyberArk Conjur
 plugins_dir: ./_plugins
 url: https://www.conjur.org
+future: true
