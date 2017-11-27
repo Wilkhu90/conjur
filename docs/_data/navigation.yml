@@ -5,24 +5,24 @@ main:
     items:
       install-conjur:
         title: Install Conjur
-        path: /get-started/install-conjur.html
+        path: /get-started/install-conjur
       evaluate-conjur:
         title: Try Conjur
-        path: /get-started/try-conjur.html
+        path: /get-started/try-conjur
   tools:
     title: Tools
     path: /tools/
     items:
       summon:
         title: Summon
-        path: /tools/summon.html
+        path: /tools/summon
   integrations:
     title: Integrations
     path: /integrations/
     items:
       ansible:
         title: Ansible
-        path: /integrations/ansible.html
+        path: /integrations/ansible
       puppet:
         title: Puppet
         path: /integrations/puppet.html
