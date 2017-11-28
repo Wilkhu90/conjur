@@ -2,10 +2,24 @@
 layout: default
 ---
 
-<ul>
+<!-- <ul class="posts">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}"><li class="post card">
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.date }}</p>
+      {{ post.content | strip_html | truncatewords: 40 }}
+    </li></a>
+  {% endfor %}
+</ul> -->
+
+<h1>Conjur Blog</h1>
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li class="post card">
+      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+      <p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+      {{ post.content | strip_html | truncatewords: 40 }}
     </li>
   {% endfor %}
 </ul>

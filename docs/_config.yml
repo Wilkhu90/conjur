@@ -11,4 +11,4 @@ title: CyberArk Conjur
 plugins_dir: ./_plugins
 url: https://www.conjur.org
 future: true
-permalink: pretty
+# permalink: pretty
