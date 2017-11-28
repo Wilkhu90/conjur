@@ -2,10 +2,11 @@
 layout: post
 title: "A DevOps Security Maturity Model"
 date: 2017-11-25 18:22:00 -0400
+author: Orson Welles
 categories: blog
 published: true
 image: post-feature.jpg
-thumb: post-thumb.jpg
+thumb: post-thumb-3.jpg
 
 ---
 
