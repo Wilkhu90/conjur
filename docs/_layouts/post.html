@@ -11,7 +11,7 @@ layout: default
         </header>
 
         {% if page.image %}
-          <img src="{{ base.url }}{{ page.image }}" alt="">
+          <img class="post-image" src="{{ base.url }}/img/blog/{{ page.image }}" alt="">
         {% endif %}
 
         <div class="entry">{{ content }}</div>

@@ -4,7 +4,8 @@ title: "A DevOps Security Maturity Model"
 date: 2017-11-25 18:22:00 -0400
 categories: blog
 published: true
-image: /img/blog/fugg_detail.jpg
+image: post-feature.jpg
+thumb: post-thumb.jpg
 
 ---
 
