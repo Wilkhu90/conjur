@@ -10,6 +10,10 @@ layout: default
             <span class="author"><i class="icon-user"></i> {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</span>
         </header>
 
+        {% if page.image %}
+          <img src="{{ base.url }}{{ page.image }}" alt="">
+        {% endif %}
+
         <div class="entry">{{ content }}</div>
 
         <footer></footer>
